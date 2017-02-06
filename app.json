@@ -5,10 +5,10 @@
   "keywords": ["slack", "tts", "node"],
   "env": {
     "SLACK_BOT_TOKEN": {
-      "description": "A slack bot token."
+      "description": "A slack bot token. Refer https://api.slack.com/bot-users"
     },
     "SLACK_BOT_NAME": {
-      "description": "A slack bot name."
+      "description": "A slack bot name. Refer https://api.slack.com/bot-users"
     }
   }
 }
