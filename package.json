@@ -1,5 +1,5 @@
 {
-  "name": "tts-srn",
+  "name": "slack-tts",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -11,7 +11,8 @@
   "scripts": {
     "build": "cd client && npm run build",
     "start": "cd server && npm start",
-    "add-build-to-git": "git add -f client/build"
+    "add-build-to-git": "git add -f client/build",
+    "postinstall": "cd client && npm install && cd - && cd server && npm install"
   },
   "pre-commit": [
     "build",
