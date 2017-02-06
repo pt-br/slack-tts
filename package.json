@@ -16,9 +16,5 @@
   "pre-commit": [
     "build",
     "add-build-to-git"
-  ],
-  "dependencies": {
-    "lodash": "^4.16.4",
-    "tts-srn-server": "file:server"
-  }
+  ]
 }

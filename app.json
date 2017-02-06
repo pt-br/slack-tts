@@ -1,0 +1,14 @@
+{
+  "name": "Slack TTS",
+  "description": "TTS for slack",
+  "repository": "https://github.com/ironhee/slack-tts",
+  "keywords": ["slack", "tts", "node"],
+  "env": {
+    "SLACK_BOT_TOKEN": {
+      "description": "A slack bot token.",
+    },
+    "SLACK_BOT_NAME": {
+      "description": "A slack bot name.",
+    }
+  }
+}
