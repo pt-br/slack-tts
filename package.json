@@ -11,11 +11,13 @@
   "scripts": {
     "build": "cd client && npm run build",
     "start": "cd server && npm start",
-    "add-build-to-git": "git add -f client/build",
-    "postinstall": "cd client && npm install && cd - && cd server && npm install"
+    "add-build-to-git": "git add -f client/build"
   },
   "pre-commit": [
     "build",
     "add-build-to-git"
-  ]
+  ],
+  "dependencies": {
+    "server": "file:server"
+  }
 }
