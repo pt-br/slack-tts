@@ -2,10 +2,10 @@ const querystring = require('querystring')
 const fetch = require('node-fetch')
 
 const SUPPORTED_LANGUAGES = {
-  KOREAN: 'Ko-kr'
+  PTBR: 'Pt-br'
 }
 
-function tts (text, lang = SUPPORTED_LANGUAGES.KOREAN) {
+function tts (text, lang = SUPPORTED_LANGUAGES.PTBR) {
   const params = querystring.stringify({
     ie: 'UTF-8',
     total: 1,
